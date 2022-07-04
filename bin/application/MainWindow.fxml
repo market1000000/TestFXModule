@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="860.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Настройки">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#showSettingsWindos" text="Текущие" />
+                  <MenuItem mnemonicParsing="false" text="Сохранить" />
+                  <MenuItem mnemonicParsing="false" text="Настройки по умолчанию" />
+                  <MenuItem mnemonicParsing="false" text="Обновления программы" />
+                  <MenuItem mnemonicParsing="false" onAction="#QuitApplication" text="Выход" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Стратегии">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Создать" />
+                  <MenuItem mnemonicParsing="false" text="Открыть" />
+                  <MenuItem mnemonicParsing="false" text="Сохранить" />
+                  <MenuItem mnemonicParsing="false" text="Тест стратегии" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Данные">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Новый источник данных" />
+                  <MenuItem mnemonicParsing="false" text="Анализ данных" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Торги">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Режим торгов" />
+                  <MenuItem mnemonicParsing="false" text="Закрыть" />
+               </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Помощь">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Контекстная подсказка" />
+                  <MenuItem mnemonicParsing="false" text="О программе" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
